@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>サイト名</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">サイト名</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="menu">
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">ブログ</a>
+                    <ul class="dropdown">
+                        <li><a href="#">カテゴリ1</a></li>
+                        <li><a href="#">カテゴリ2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>ようこそ！</h1>
+                <p>ここは謎めいたブログです。</p>
+                <a href="#" class="cta-button">もっと見る</a>
+            </div>
+        </section>
+        <section class="blog-preview">
+            <article class="blog-card">
+                <h2>最新記事1</h2>
+                <p>脳死で作られた魅力的なブログ記事。</p>
+                <a href="#">続きを読む</a>
+            </article>
+            <article class="blog-card">
+                <h2>最新記事2</h2>
+                <p>脳死で作った内容をお楽しみください。</p>
+                <a href="#">続きを読む</a>
+            </article>
+            <article class="blog-card">
+                <h2>最新記事3</h2>
+                <p>最新のトピックをチェック！</p>
+                <a href="#">続きを読む</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 サイト名. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
